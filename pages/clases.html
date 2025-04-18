@@ -1,0 +1,255 @@
+<HTML:5>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases - Esparta Gym</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/clases.css">
+</head>
+<body>
+   <div class="container">
+            <div id="header"></div>
+            <div class="row">
+                <div class="container py-5">
+                    <!-- Sección de Filtros -->
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <h3 class="text-white fw-bold">Filtrar por categoría</h3>
+                    </div>
+                    <div class="row mb-4">
+                       
+                        <div class="col-12 d-flex justify-content-center align-items-center ">
+                            <div class="filter-container d-flex flex-wrap">
+                                <div class="form-check me-3 text-white fw-bold">
+                                    <input class="form-check-input filter-checkbox" type="checkbox" value="musculacion" id="filterMusculacion" checked>
+                                    <label class="form-check-label " for="filterMusculacion">
+                                        Musculación
+                                    </label>
+                                </div>
+                                <div class="form-check me-3 text-white fw-bold">
+                                    <input class="form-check-input filter-checkbox" type="checkbox" value="yoga" id="filterYoga" checked>
+                                    <label class="form-check-label" for="filterYoga">
+                                        Yoga
+                                    </label>
+                                </div>
+                                <div class="form-check me-3 text-white fw-bold">
+                                    <input class="form-check-input filter-checkbox" type="checkbox" value="spinning" id="filterSpinning" checked>
+                                    <label class="form-check-label" for="filterSpinning">
+                                        Spinning
+                                    </label>
+                                </div>
+                                <div class="form-check me-3 text-white fw-bold">
+                                    <input class="form-check-input filter-checkbox" type="checkbox" value="crossfit" id="filterCrossfit" checked>
+                                    <label class="form-check-label" for="filterCrossfit">
+                                        CrossFit
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Galería Masonry -->
+                    <div class="container py-5">
+                        <!-- Galería con Cards -->
+                        <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="rotating-cards">
+                            <!-- Card 1 -->
+                            <div class="col" >
+                                <div class="card h-100" data-category="musculacion">
+                                    <div class="position-relative">
+                                        <!-- ratio y ratio-4x3 son clases de Bootstrap para mantener proporción -->
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/musculacion 1.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Musculación">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="musculacion">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/musculacion 2.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Musculación">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="musculacion">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/musculacion 3.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Musculación">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="spinning">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/sppining 1.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Spinning">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="spinning">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/sppining 2.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Spinning">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="spinning">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/sppining 3.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Spinning">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 7 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="yoga">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/yoga 1.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Yoga">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 8 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="yoga">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/yoga 2.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Yoga">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 9 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="yoga">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/yoga 3.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="Yoga">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 10 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="crossfit">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/crossfit 1.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="CrossFit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 11 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="crossfit">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/crossfit 2.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="CrossFit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 12 -->
+                            <div class="col">
+                                <div class="card h-100" data-category="crossfit">
+                                    <div class="position-relative">
+                                        <div class="ratio ratio-4x3">
+                                            <img src="../multimedia/images/clases/crossfit 3.PNG" 
+                                                 class="card-img-top img-fluid" 
+                                                 alt="CrossFit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div>
+                        <!-- Tabla de Horarios -->
+                         
+                        <div class="table-responsive mt-5">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h3 class="text-white fw-bold">Horarios de Clases</h3>
+                             </div>
+                            <table class="table table-bordered table-hover">
+                                <thead class="table-dark ">
+                                    <tr>
+                                        <th>Hora</th>
+                                        <th>Lunes</th>
+                                        <th>Martes</th>
+                                        <th>Miércoles</th>
+                                        <th>Jueves</th>
+                                        <th>Viernes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>09:00</td>
+                                        <td>Yoga</td>
+                                        <td>Spinning</td>
+                                        <td>CrossFit</td>
+                                        <td>Musculación</td>
+                                        <td>Yoga</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>CrossFit</td>
+                                        <td>Musculación</td>
+                                        <td>Yoga</td>
+                                        <td>Spinning</td>
+                                        <td>CrossFit</td>
+                                    </tr>
+                                    <!-- Añade más filas según necesites -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div id="footer"></div>
+   </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../jquery/clases.js"></script>
+
+
+</body>
+
+</html>
+
+</HTML:5>

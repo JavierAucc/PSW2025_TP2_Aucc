@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="header row align-items-center">
+        <!-- Columna para la imagen -->
+        <div class="loggym col-2 ">
+            <img src="../multimedia/images/gimnasio/logoEsparta.PNG" class="img-fluid shadow rounded bg-transparent" alt="Logo del Gimnasio">
+        </div>
+        <!-- Columna para el título y el navbar -->
+        <div class="row col-10">
+            <!-- Columna para el título -->
+            <div class="titulo col-10 d-flex justify-content-center align-items-center">
+                <!-- Título con efecto sombreado -->
+                <img src="../multimedia/images/gimnasio/nombreGym.png" class="img-fluid shadow rounded" alt="Nombre del Gimnasio">
+            </div>
+            <div class="col-2 d-flex justify-content-end align-items-center">
+                <!-- Botón para cambiar el color del navbar -->
+                <button class="btn btn-light ms-3" id="colorToggle">
+                    <img src="../multimedia/images/icons/sol.png" alt="Modo claro" id="iconMode" width="24" height="24">
+                </button>
+            </div>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow" id="navbar">
+                <div class="container-fluid">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav fs-2">
+                            <li class="nav-item">
+                                <a class="nav-link active hover-fluor " aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../pages/clases.html" id="clasesDropdown" role="button" aria-expanded="false">
+                                    Clases
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="clasesDropdown">
+                                    <li><a class="dropdown-item" href="../pages/clases.html">Musculación</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html">Spinning</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html">Yoga</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html">Crossfit</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover-fluor" href="../pages/coaches.html">Profesores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover-fluor " href="../pages/prices.html">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover-fluor" href="../pages/blog.html">Novedades</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../jquery/header.js"></script>
+</body>
+</html>
