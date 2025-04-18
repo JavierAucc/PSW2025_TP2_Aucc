@@ -1,7 +1,7 @@
 //script para llamar header y footer
 $(document).ready(function() {
-    $("#header").load("../layouts/header.html");
-    $("#footer").load("../layouts/footer.html");
+    $("#header").load("layouts/header.html");
+    $("#footer").load("layouts/footer.html");
 });
 //script para animar las frases
 $(document).ready(function() {
