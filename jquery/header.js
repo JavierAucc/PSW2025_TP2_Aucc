@@ -10,13 +10,13 @@ $(document).ready(function () {
             // Cambiar a modo claro
             navbar.removeClass("bg-dark navbar-dark").addClass("bg-white navbar-light border border-dark fs-2");
             navLinks.removeClass("hover-fluor").addClass("hover-dark"); // Cambiar efecto hover
-            icon.attr("src", "../multimedia/images/icons/luna.png"); // Cambiar a luna
+            icon.attr("src", "../../multimedia/images/icons/luna.png"); // Cambiar a luna
             icon.attr("alt", "Modo oscuro");
         } else {
             // Cambiar a modo oscuro probando
             navbar.removeClass("bg-white navbar-light border border-dark fs-2").addClass("bg-dark navbar-dark");
             navLinks.removeClass("hover-dark").addClass("hover-fluor"); // Cambiar efecto hover
-            icon.attr("src", "../multimedia/images/icons/sol.png"); // Cambiar a sol
+            icon.attr("src", "../../multimedia/images/icons/sol.png"); // Cambiar a sol
             icon.attr("alt", "Modo claro");
         }
     });
